@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="name" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="datetime-local" name="datetime-local" id="datetime-local"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <label for=""><input type="radio" name="gender" id="nam" value="1">Nam</label>
+                <label for=""><input type="radio" name="gender" id="nữ" value="2">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><label for=""><input type="tel" name="tel" id="tel"></label></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><label for=""><input type="email" name="email" id="email"></label></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><label for=""><textarea id="note" name="note" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Vai trò trong nhóm:</td>
+            <td>
+                <select name="chon" id="chon">
+                    <option value="Thanh_Vien">Thành viên</option>
+                    <option value="Nhóm_Truong">Nhóm trưởng</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Sở thích:</td>
+            <td><input type="text" name="sở thích" id="sở thích"></td>
+        </tr>
+        <tr>
+            <td>Kỹ năng:</td>
+            <td><label for=""><textarea name="note" id="note"></textarea></label></td>
+        </tr>
+        <tr>
+            <td>Thời gian rảnh:</td>
+            <td>
+                <label for=""><input type="radio" name="chon">Sáng</label>
+                <label for=""><input type="radio" name="chon">Chiều</label>
+                <label for=""><input type="radio" name="chon">Tối</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Lý do tham gia nhóm:</td>
+            <td><label for=""><textarea name="note" id="note"></textarea></label></td>
+        <tr>
+            <td>Màu sắc yêu thích:</td>
+            <td><input type="color" name="color" id="color"></td>
+        <tr>
+        <tr>
+            <td>Đăng kí nhận bảng tin:</td>
+            <td><label for=""><input type="radio" name="co" id="co">Có</label></td>
+        </tr>
+        <tr>
+            <td>Nhận thông báo qua email:</td>
+            <td><label for=""><input type="radio" name="chon" id="chon">Email</label>
+                <label for=""><input type="radio" name="chon" id="chon">Email</label>
+            </td>
+        </tr>
+        <tr>
+            <td><button type="submit">Đăng ký thành viên</button></td>
+        </tr>
+    </table>
+</body>
+</html>
